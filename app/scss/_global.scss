@@ -1,0 +1,13 @@
+.container-small{
+  max-width:1170px;
+  margin: 0 auto;
+}
+.container-big{
+  max-width: 1700px;
+  margin: 0 auto  ;
+}
+body{
+ display: flex;
+ flex-direction: column;
+ @extend %rubik-400;
+}
